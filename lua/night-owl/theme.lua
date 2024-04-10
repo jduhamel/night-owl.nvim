@@ -198,6 +198,7 @@ function theme.set_highlights(settings)
 	-- Buffer
 
 	-- StatusLine
+	hl(0, "StatusLine", { fg = palette.status_fg, bg = palette.status_bg })
 
 	-- IndentBlankline
 	hl(0, "IndentBlanklineChar", { link = "@nowl.indentChar" })
